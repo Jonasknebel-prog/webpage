@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meine erste Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Willkommen auf meiner Website!</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Start</a></li>
+        <li><a href="#about">Über mich</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Startseite</h2>
+      <p>Das ist eine einfache HTML-Seite mit etwas Stil.</p>
+      <button id="clickMeBtn">Klick mich!</button>
+    </section>
+
+    <section id="about">
+      <h2>Über mich</h2>
+      <p>Hier kannst du ein paar Infos über dich schreiben.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <button type="submit">Absenden</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Meine Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
